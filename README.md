@@ -1,4 +1,4 @@
-# Plantas Vasculares de Chile
+# Plantas_CL - Plantas Vasculares de Chile
 
 Una app para Android con el catálogo de las plantas vasculares de Chile: unas
 **5.500 especies** para buscar, filtrar, conocer y fotografiar, en el
@@ -16,7 +16,7 @@ Sin cuentas, sin anuncios y sin enviar datos tuyos a ninguna parte.
 ## Descargar e instalar
 
 1. Descarga el archivo **`.apk`** de la última versión en
-   **[Releases](https://github.com/obnubiladox/Florax/releases/latest)**.
+   **[Releases](https://github.com/obnubiladox/Plantas_CL/releases/latest)**.
 2. Ábrelo en el teléfono. Si Android lo pide, permite instalar apps de esa
    fuente (el navegador o el administrador de archivos).
 3. Listo. Funciona desde **Android 7.0** en adelante.
@@ -177,7 +177,7 @@ La app sigue el modo claro u oscuro del teléfono.
 
 Si encuentras un error en los datos de una especie, ábrela en la app y usa
 **menú → Informar error**. Se abrirá un formulario en la sección
-[Issues](https://github.com/obnubiladox/Florax/issues) de este repositorio,
+[Issues](https://github.com/obnubiladox/Plantas_CL/issues) de este repositorio,
 ya completado con la especie (necesitas una cuenta de GitHub). Ahí también
 puedes dejar sugerencias.
 
@@ -194,7 +194,7 @@ directamente en
 
 ## Créditos y fuentes
 
-**Plantas Vasculares de Chile** reúne en el teléfono información publicada por
+**Plantas_CL** reúne en el teléfono información publicada por
 instituciones, investigadores y miles de observadores. El trabajo científico y
 las fotografías son de ellos: esta app solo ensambla esos datos, los cruza y
 los hace fáciles de consultar.
