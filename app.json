@@ -1,8 +1,8 @@
 {
-    "versionCode":  2,
-    "versionName":  "1.1",
-    "url":  "https://github.com/obnubiladox/Florax/releases/download/v1.1/PlantasVasculares-1.1.apk",
-    "sha256":  "d47a970b1da3f4d5b8ad4098b86ba4ea4a0011064230071ee19cbf7a8998c645",
-    "notes":  "Versión Beta",
-    "updated":  "2026-10-02"
+    "versionCode":  3,
+    "versionName":  "1.2",
+    "url":  "https://github.com/obnubiladox/Florax/releases/download/v1.2/PlantasVasculares-1.2.apk",
+    "sha256":  "35d6057be86fdf998fc2b1b586e702a2ff39036ef211673133ae6521c95c5ed4",
+    "notes":  "Pantallas de Actualizaciones y Carpeta, contraer grupos, borrar fotos de una galería",
+    "updated":  "2026-10-03"
 }
