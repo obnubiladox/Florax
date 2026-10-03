@@ -1,0 +1,8 @@
+{
+    "version":  2,
+    "file":  "DB.csv",
+    "sha256":  "17bb55ec1cec154bb1268ff48f3421d5ca7c5454ae1b2248dc62ca93544cc9a8",
+    "rows":  5582,
+    "updated":  "2026-10-01",
+    "notes":  "Primera versión - Se agregaron Ordenes y Clases"
+}
