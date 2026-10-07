@@ -1,8 +1,0 @@
-{
-    "version":  3,
-    "file":  "DB.csv",
-    "sha256":  "5254beaa1e2bb3e5adae860d2750b07c1ed68dbb578ae2ee4ece198280f3db26",
-    "rows":  5582,
-    "updated":  "2026-10-03",
-    "notes":  "Fix de Familias sin Clase ni Orden"
-}
