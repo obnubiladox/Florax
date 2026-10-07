@@ -27,26 +27,33 @@ original.
 
 ### Actualizaciones
 
-La app revisa sola, una vez al día, si hay una versión nueva de la app o de la
-base de datos, y te avisa. También puedes revisarlo cuando quieras en
-**menú → Actualizaciones**:
+La app revisa sola, una vez al día, si hay una versión nueva de la app, de la
+base de datos o de las descripciones, y te avisa. También puedes revisarlo
+cuando quieras en **menú → Actualizaciones**, donde además ves qué versión de
+la base y de las descripciones estás usando:
 
 - **Base de datos:** se actualiza ahí mismo, con un toque.
+- **Descripciones morfológicas:** se instalan solas cuando hay nuevas (o con un
+  toque, desde ahí mismo).
 - **App:** el botón **Descargar** baja el archivo nuevo; ábrelo para
   instalarlo encima.
 
-En los dos casos se conservan tus marcas, notas, galerías y fotos.
+En todos los casos se conservan tus marcas, notas, galerías y fotos.
 
 ---
 
 ## Primeros pasos: elige una carpeta
 
-La primera vez que guardes una foto, la app te pedirá **elegir una carpeta**
-del teléfono (puedes crear una nueva, por ejemplo `Plantas`). Ahí se guardan:
+Al abrir la app por primera vez, te pedirá permiso para mostrar
+notificaciones (para el avance de las descargas) y que **elijas una carpeta**
+del teléfono (puedes crear una nueva, por ejemplo `Plantas`). Si lo dejas para
+después, te la volverá a pedir la primera vez que guardes una foto. Ahí se
+guardan:
 
 - tus **fotos**, ordenadas en una carpeta por especie;
 - un **respaldo automático** de tus marcas, notas, galerías y colecciones,
-  que se actualiza solo cada vez que cambias algo.
+  que se actualiza solo cada vez que cambias algo;
+- una copia de tus **colores** de la app, si los cambiaste.
 
 Esa carpeta **sigue ahí aunque desinstales la app**. Si reinstalas la app o
 cambias de teléfono (copiando la carpeta), elige la misma carpeta y todo
@@ -68,19 +75,22 @@ categoría de conservación, clase, orden, familia, género y sus fotos.
 
 - **Buscador:** por nombre científico, nombre común o tus notas. No importan
   tildes ni mayúsculas.
-- **Filtros:** clase, orden, familia, género, hábito, origen, categoría de
-  conservación, distribución por región y rango altitudinal, además de
-  Avistadas, Favoritas, Con notas, Amenazadas y Con fotos. Cada opción muestra
-  cuántas especies quedarían al elegirla. En categoría, distribución y rango
-  puedes pedir que se cumpla **cualquiera** o **todas** las opciones elegidas.
+- **Filtros:** clase, orden, familia, género, hábito (agrupado en árboles,
+  arbustos y subarbustos, y hierbas), origen, categoría de conservación,
+  distribución por región y rango altitudinal. En **Mostrar solo**:
+  Avistadas, Favoritas, Con notas, Con fotos, DS68 y Amenazadas. Cada opción
+  muestra cuántas especies quedarían al elegirla. En distribución puedes pedir
+  que la especie esté en **cualquiera** o en **todas** las regiones elegidas.
 - **Amenazadas:** por defecto, las categorías En peligro crítico, En peligro y
-  Vulnerable. Con un toque largo en ese filtro eliges otras.
-- **Orden:** por nombre científico, por orden (agrupado en clase, orden y
-  familia) o por familia. Toca un título de grupo para **contraerlo o
-  expandirlo**; en el menú está **Contraer todos los grupos** y **Expandir
-  todos los grupos**. Con un toque largo en un orden lo dejas como orden por
+  Vulnerable. Con un toque largo en ese filtro eliges otras; los colores de
+  las categorías en tarjetas y fichas siguen esa elección.
+- **Orden:** por nombre científico, por clasificación (clase, orden, familia y
+  género) o por familia y género. Toca un título de grupo para **contraerlo o
+  expandirlo**; el botón al final de la fila de Filtros contrae o expande
+  todos de una vez. Con un toque largo en un orden lo dejas como orden por
   defecto.
-- **Mostrar u ocultar** clase, orden, familia y género en las tarjetas (menú).
+- **Mostrar u ocultar** clase, orden, familia y género en las tarjetas (menú;
+  ocultos por defecto).
 - **Marcas rápidas:** en cada tarjeta, el ojo (avistada), la estrella
   (favorita) y la nota.
 - **Selección múltiple:** mantén presionada una tarjeta para elegir varias
@@ -95,16 +105,24 @@ categoría de conservación, clase, orden, familia, género y sus fotos.
 Toca una tarjeta para abrir su ficha:
 
 - fotos de la especie (tócalas para verlas en grande);
-- nombre, nombre común, hábito, origen y categoría de conservación;
-- botones **Avistada**, **Favorita** y **Nota**, y **Agregar a galería**;
-- **Información general:** especie con su autor, clase, orden, familia,
-  género, otros países y sinónimos;
-- **Distribución:** las regiones donde está presente y un **mapa de Chile**
-  con esas regiones marcadas (tócalo para verlo en pantalla completa, con
-  zoom);
-- **Rango altitudinal** y **notas del catálogo**;
-- **Categoría de conservación (RCE)** con todo su detalle;
-- datos de **World Flora Online** y de **iNaturalist**.
+- nombre, nombre común, hábito, origen, categoría de conservación (con su
+  significado, por ejemplo "Vulnerable") y, si corresponde, su DS68;
+- botones **Avistada**, **Favorita** y **Nota**, y **Agregar a galería**.
+
+Debajo, la información va en **pestañas** (la app recuerda la última que
+abriste), cada una con su fuente y un enlace a ella:
+
+- **Catálogo:** especie con su autor, clase, orden, familia, género y
+  sinónimos; **distribución** (regiones de Chile, otros países y un **mapa de
+  Chile** con esas regiones marcadas: tócalo para verlo en pantalla completa,
+  con zoom); **rango altitudinal** y **notas del catálogo**.
+- **Conservación:** la clasificación del RCE con todo su detalle (también se
+  abre al tocar la categoría en el encabezado).
+- **WFO:** nombre aceptado y clasificación según World Flora Online.
+- **iNaturalist:** taxonomía según iNaturalist.
+- **Descripción:** la **descripción morfológica** de la especie, con sus
+  fuentes, para las especies que ya la tienen. Las descripciones se van
+  agregando y llegan solas con las actualizaciones.
 
 Desde el menú de la ficha puedes:
 
@@ -129,7 +147,7 @@ una región, un curso, tus favoritas…
   las notificaciones, y se puede pausar, reanudar o cancelar.
 - **Descargar de iNaturalist:** crea una galería a partir de una lista o de
   una búsqueda de iNaturalist (pega el número o el enlace). Las especies que
-  no están en la base también se agregan, marcadas como "No está en catálogo".
+  no están en la base también se agregan, marcadas como "No está en la base".
 - **Eliminar todas las fotos** de las especies de una galería (ojo: como cada
   especie tiene una sola carpeta de fotos, también desaparecen del catálogo y
   de las otras galerías donde esté).
@@ -146,8 +164,8 @@ fotos. Después la compartes o la guardas en el teléfono. Hay dos formatos:
   fotos que ya tenga no se duplican.
 - **Para ver en un computador (`.zip`):** descomprímelo y abre `index.html` en
   el navegador. Verás la galería como en la app: tarjetas, buscador, filtros,
-  órdenes, la ficha completa de cada especie con su mapa y el visor de fotos.
-  No necesita internet ni instalar nada. Lo que marques o anotes ahí queda
+  órdenes, la ficha completa de cada especie con su mapa y su descripción, el
+  visor de fotos y tus colores. No necesita internet ni instalar nada. Lo que marques o anotes ahí queda
   guardado solo en ese navegador. La app también puede importar este archivo.
 
 ### Uso de la API de iNaturalist
@@ -156,9 +174,16 @@ En **menú → Uso de API de iNaturalist** ves cuántas consultas hizo la app y
 cuánto ocupan tus fotos. La app respeta sola los límites que pide
 iNaturalist.
 
-### Modo oscuro
+### Modo oscuro y colores
 
 La app sigue el modo claro u oscuro del teléfono.
+
+Puedes **cambiar los colores** de la app: mantén presionado el título
+**Plantas_CL** en la pantalla principal. Se editan los colores del modo que
+esté usando el teléfono, y **Volver a los colores originales** los deshace. Tu
+tema se guarda en la carpeta de fotos y respaldo (`plantas_tema.json`), así
+que vuelve solo si reinstalas la app, y también puedes cargarlo desde un
+archivo.
 
 ---
 
@@ -272,6 +297,11 @@ nombre con que se muestra cada especie) se cotejaron con la
 [WFO Plant List](https://wfoplantlist.org/) de
 [World Flora Online](https://www.worldfloraonline.org/), mantenida por el
 Consorcio WFO, que reúne a más de 50 instituciones botánicas del mundo.
+
+### Descripciones morfológicas
+
+Cada descripción indica, en el mismo texto, las obras de donde proviene
+(autor y año). Cítalas a ellas, no a la app.
 
 ### Sobre esta app
 
